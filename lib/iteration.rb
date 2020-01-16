@@ -18,9 +18,9 @@ def join_ingredients(src)
     outer_results << inner_results
   row_index += 1
 end
-  my_favs = ["I love #{[outer_results][0][0][0]} and #{[outer_results][0][0][1]} on my pizza"],
-            ["I love #{[outer_results][0][1][0]} and #{[outer_results][0][1][1]} on my pizza"],
-            ["I love #{[outer_results][0][2][0]} and #{[outer_results][0][2][1]} on my pizza"]
+  my_favs = ["I love #{[outer_results][0][0][0]} and #{[outer_results][0][0][1]} on my pizza",
+            "I love #{[outer_results][0][1][0]} and #{[outer_results][0][1][1]} on my pizza",
+            "I love #{[outer_results][0][2][0]} and #{[outer_results][0][2][1]} on my pizza"]
   my_favs
 end
 
