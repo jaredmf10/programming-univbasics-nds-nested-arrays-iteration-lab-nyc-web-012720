@@ -39,7 +39,7 @@ def find_greater_pair(src)
   larger_number_array = []
 
   src.each do |sub_array|
-  larger_number_array = sub_array.max
+  larger_number_array << sub_array.max
 
   end
   larger_number_array
