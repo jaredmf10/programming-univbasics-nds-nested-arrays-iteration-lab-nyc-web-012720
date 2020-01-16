@@ -52,7 +52,6 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   numbers_list = []
-  total_number = []
 
   src.each do |sub_array|
     if sub_array[0].even? && sub_array[1].even?
