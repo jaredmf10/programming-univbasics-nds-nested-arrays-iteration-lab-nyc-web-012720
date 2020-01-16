@@ -12,7 +12,7 @@ def join_ingredients(src)
   end
   row_index += 1
 end
-  
+
 end
 
 def find_greater_pair(src)
