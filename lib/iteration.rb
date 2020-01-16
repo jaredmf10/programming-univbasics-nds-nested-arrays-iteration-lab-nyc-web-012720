@@ -31,11 +31,18 @@ my_favs_array << my_favs_string
 end
 my_favs_array
 end
+
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+  larger_number_array = []
 
+  src.each do |sub_array|
+  larger_number_array = sub_array.max
+  
+  end
+  larger_number_array
 end
 
 def total_even_pairs(src)
