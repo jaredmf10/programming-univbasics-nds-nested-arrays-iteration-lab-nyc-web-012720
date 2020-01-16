@@ -47,10 +47,15 @@ end
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # if both numbers in the pair are even, then add both those numbers to the
-  # total
-  #
+  # if both numbers in the pair are even, then add both those numbers to the total
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  numbers_list = []
+  total_number = []
+
+  src.each do |sub_array|
+    if sub_array[0].even? && sub_array[1].even?
+      numbers_list << (sub_array[0] + sub_array[1])
+    end
 end
