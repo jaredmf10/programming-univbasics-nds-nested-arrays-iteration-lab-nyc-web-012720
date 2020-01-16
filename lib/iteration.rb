@@ -13,9 +13,8 @@ def join_ingredients(src)
     #   Array at row_index
     #   Element of the inner array at element_index
     #   The first character of that element...
-    if src[row_index][element_index][0] == "P"
-      inner_results << src[row_index][element_index]
-    end
+    src[row_index][element_index][0]
+    inner_results << src[row_index][element_index]
     element_index += 1
   end
     outer_results << inner_results
