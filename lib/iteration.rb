@@ -18,16 +18,23 @@ def join_ingredients(src)
     outer_results << inner_results
   row_index += 1
 end
-  my_favs = ["I love #{[outer_results][0][0][0]} and #{[outer_results][0][0][1]} on my pizza",
-            "I love #{[outer_results][0][1][0]} and #{[outer_results][0][1][1]} on my pizza",
-            "I love #{[outer_results][0][2][0]} and #{[outer_results][0][2][1]} on my pizza"]
-  my_favs
-end
+  #my_favs = ["I love #{[outer_results][0][0][0]} and #{[outer_results][0][0][1]} on my pizza",
+  #          "I love #{[outer_results][0][1][0]} and #{[outer_results][0][1][1]} on my pizza",
+  #          "I love #{[outer_results][0][2][0]} and #{[outer_results][0][2][1]} on my pizza"]
+  # my_favs
+my_favs_array = []
+my_favs_string = ' ';
 
+src.each do |sub_array|
+my_temp_string = "I love #{src[0]} and #{src[1]} on my pizza"
+my_return_array << my_temp_string
+end
+end
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+  
 end
 
 def total_even_pairs(src)
