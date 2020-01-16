@@ -9,10 +9,8 @@ def join_ingredients(src)
   element_index = 0
   inner_results = []
   while element_index < src[row_index].count do
-    # How to read the following line of code:
     #   Array at row_index
     #   Element of the inner array at element_index
-    #   The first character of that element...
     src[row_index][element_index][0]
     inner_results << src[row_index][element_index]
     element_index += 1
