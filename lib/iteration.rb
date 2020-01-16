@@ -27,7 +27,7 @@ my_favs_string = ' ';
 
 src.each do |sub_array|
 my_temp_string = "I love #{src[0]} and #{src[1]} on my pizza"
-my_return_array << my_temp_string
+my_fav_array << my_temp_string
 end
 end
 def find_greater_pair(src)
