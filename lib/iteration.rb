@@ -55,7 +55,7 @@ def total_even_pairs(src)
   total_number = []
 
   src.each do |sub_array|
-    if sub_array[0].even? == true && sub_array[1].even? == true
+    if (sub_array[0].even? == true) && (sub_array[1].even? == true)
       numbers_list << (sub_array[0] + sub_array[1])
     end
     numbers_list
