@@ -59,5 +59,5 @@ def total_even_pairs(src)
       numbers_list << (sub_array[0] + sub_array[1])
     end
   end
-    numbers_list
+    numbers_list.sum
 end
