@@ -58,5 +58,6 @@ def total_even_pairs(src)
     if sub_array[0].even? && sub_array[1].even?
       numbers_list << (sub_array[0] + sub_array[1])
     end
+  end
     numbers_list
 end
