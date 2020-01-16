@@ -18,7 +18,7 @@ def join_ingredients(src)
     outer_results << inner_results
   row_index += 1
 end
-  my_favs = "I like #{element_one} and #{element_two} on my pizza"
+  my_favs = "I like #{outer_results} and #{outer_results} on my pizza"
   my_favs
 end
 
