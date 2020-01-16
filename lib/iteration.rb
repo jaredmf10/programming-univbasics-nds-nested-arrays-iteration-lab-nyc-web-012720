@@ -3,16 +3,27 @@ def join_ingredients(src)
   # Build a new Array that contains strings where each pair of foods is inserted into this template:
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
+  outer_results = []
   row_index = 0
   while row_index < src.count do
   element_index = 0
+  inner_results = []
   while element_index < src[row_index].count do
-    puts src[row_index][element_index]
+    # How to read the following line of code:
+    #   Array at row_index
+    #   Element of the inner array at element_index
+    #   The first character of that element...
+    if src[row_index][element_index][0] == "P"
+      inner_results << src[row_index][element_index]
+    end
     element_index += 1
   end
+    outer_results << inner_results
   row_index += 1
 end
-
+ 
+outer_results
+ 
 end
 
 def find_greater_pair(src)
