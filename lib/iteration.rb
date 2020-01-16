@@ -18,7 +18,8 @@ def join_ingredients(src)
     outer_results << inner_results
   row_index += 1
 end
-    outer_results
+    my_favs = "I love "[element1]" and "[element2]" on my pizza"
+    my_favs
 end
 
 def find_greater_pair(src)
